@@ -26,7 +26,7 @@ let segment1 = BarSegment(EmptySegmentWithvalue: floatValue) //Creates a Empty S
 chart.addSegment(segment1) // Adds the segment to the chart
 ```
 
-Here you see there are two different inits. The first one creates a standard Segment with a color as you like. The second one creates an "empty segment". This means the Color is a light gray and the isEmpty-flag is setted. This means, that this segment is ignored when you sort the segments. You can change the color and the isEmpty manually for both. <br/>
+Here you see there are two different inits. The first one creates a standard Segment with a color as you like. The second one creates an "empty segment". This means the Color is a light gray and the isEmpty-flag is setted. This means, that this segment is ignored when you sort the segments, it is always on the right side. You can change the color and the isEmpty-flag manually for both. <br/>
 And last:
 ```
 chart.draw() /*or*/ chart.drawSorted()
