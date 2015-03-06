@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		06C19FDD1AA9DB8D0050E382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C19FDC1AA9DB8D0050E382 /* AppDelegate.swift */; };
-		06C19FDF1AA9DB8D0050E382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C19FDE1AA9DB8D0050E382 /* ViewController.swift */; };
 		06C19FE21AA9DB8D0050E382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C19FE01AA9DB8D0050E382 /* Main.storyboard */; };
 		06C19FE41AA9DB8D0050E382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C19FE31AA9DB8D0050E382 /* Images.xcassets */; };
 		06C19FE71AA9DB8D0050E382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C19FE51AA9DB8D0050E382 /* LaunchScreen.xib */; };
 		06C19FF31AA9DB8D0050E382 /* StackedBarChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C19FF21AA9DB8D0050E382 /* StackedBarChartTests.swift */; };
+		06C19FFD1AA9DBF90050E382 /* StackedBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C19FFC1AA9DBF90050E382 /* StackedBarChart.swift */; };
+		06C19FFF1AA9DC2A0050E382 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C19FFE1AA9DC2A0050E382 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		06C19FD71AA9DB8D0050E382 /* StackedBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackedBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C19FDB1AA9DB8D0050E382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C19FDC1AA9DB8D0050E382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06C19FDE1AA9DB8D0050E382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06C19FE11AA9DB8D0050E382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06C19FE31AA9DB8D0050E382 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		06C19FE61AA9DB8D0050E382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		06C19FEC1AA9DB8D0050E382 /* StackedBarChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackedBarChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C19FF11AA9DB8D0050E382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06C19FF21AA9DB8D0050E382 /* StackedBarChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedBarChartTests.swift; sourceTree = "<group>"; };
+		06C19FFC1AA9DBF90050E382 /* StackedBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedBarChart.swift; sourceTree = "<group>"; };
+		06C19FFE1AA9DC2A0050E382 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				06C19FDC1AA9DB8D0050E382 /* AppDelegate.swift */,
-				06C19FDE1AA9DB8D0050E382 /* ViewController.swift */,
+				06C19FFC1AA9DBF90050E382 /* StackedBarChart.swift */,
+				06C19FFE1AA9DC2A0050E382 /* TableViewController.swift */,
 				06C19FE01AA9DB8D0050E382 /* Main.storyboard */,
 				06C19FE31AA9DB8D0050E382 /* Images.xcassets */,
 				06C19FE51AA9DB8D0050E382 /* LaunchScreen.xib */,
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06C19FDF1AA9DB8D0050E382 /* ViewController.swift in Sources */,
+				06C19FFD1AA9DBF90050E382 /* StackedBarChart.swift in Sources */,
+				06C19FFF1AA9DC2A0050E382 /* TableViewController.swift in Sources */,
 				06C19FDD1AA9DB8D0050E382 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
