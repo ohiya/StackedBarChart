@@ -7,6 +7,9 @@ This is what a StackedBarChart looks like: <br />
 <img width="45%" src="Images/StandardChart.png"</img> <br/>
 The Bar is divided into different segments, which is perfect to compare different things, e.g. the budget for projects.
 
+##How to install?
+Just copy and paste the "StackedBarChart.swift"-file in your project. You find it in my example-project
+
 ##How to use?
 My StackedBarChart is very simple (that was the goal) and is very easy to use (the other goal :)). <br />
 Just instaciate a new StackedBarChart:
